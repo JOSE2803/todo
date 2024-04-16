@@ -1,0 +1,37 @@
+.taskCard {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: var(--gray-500);
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 46rem;
+}
+
+.taskCard div {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.taskCard img {
+    cursor: pointer;
+}
+
+.deleteTask {
+    cursor: pointer;
+    color: var(--gray-300);
+}
+
+.taskConcluded {
+    line-height: 1.4;
+    font-size: 0.875rem;
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.taskNotConcluded {
+    line-height: 1.4;
+    color: var(--gray-100);
+    font-size: 0.875rem;
+}
